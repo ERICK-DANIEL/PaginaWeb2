@@ -1,0 +1,485 @@
+.header {
+   top: 0;
+   background: #ffffff;
+   min-height: 80px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.header__titulo--principal {
+   color: rgb(15, 98, 150);
+   font-family: 'Catamaran', sans-serif;
+   font-size: 3em;
+   display: inline-block;
+}
+
+.header__titulo--secundario {
+   color: rgb(15, 98, 150);
+   font-family: 'Quicksand', sans-serif;
+   font-size: 3em;
+   display: inline-block;
+   margin-right: 10px;
+}
+
+.nav {
+   background: #ffffffeb;
+   align-content: left;
+}
+
+.nav__ul {
+   padding: 31px;
+   list-style-type: none;
+}
+
+.nav__ul--li {
+   display: inline-block;
+   font-family: 'Poppins', sans-serif;
+}
+
+.nav__ul--li a:hover {
+   position: static;
+   background: rgb(8, 77, 119);
+   color: #ffffff;
+   padding-top: 100%;
+   padding-bottom: 51px;
+   transition: .2s;
+}
+
+.nav__ul--li a {
+   padding: 0 20px;
+   color: #0099ff;
+   text-decoration: none;
+}
+
+.primeraimagen {
+   width: 100%;
+   position: absolute;
+}
+
+.primeraimagen1 {
+   width: 100%;
+   height: 32em;
+}
+
+h2 {
+   position: absolute;
+   display: flex;
+   color: #ffff;
+   font-size: 3em;
+   font-family: 'Lilita One', cursive;
+   margin-top: 1em;
+   margin-left: .7em;
+   padding: 15px;
+}
+
+/**estilo segundo**/
+
+ div p {
+   font-family: 'Work Sans', sans-serif;
+}
+
+div h3 {
+   font-family: 'Work Sans', sans-serif;
+}
+
+.segundo {
+   margin-top: 35em;
+   width: 35em;
+   background-color: rgb(0, 48, 111);
+   padding: 2em;
+   position: relative;
+   margin-left: auto;
+   margin-right: auto;
+   border-radius: 6px;
+}
+
+.segundo h3 {
+   color: #ffff;
+   font-size: 2em;
+   padding-top: .5em;
+}
+
+.segundo p {
+   color: #ffffff;
+   padding-top: 2em;
+}
+
+.segundo::before {
+   content: "";
+   position: absolute;
+   top: 0;
+   right: 0;
+   border-top: 80px solid rgb(212, 212, 212);
+   border-left: 150px solid #67a54d;
+}
+
+/**TERCER SEMESTRE**/
+
+.tercer {
+   background-color: rgb(15, 40, 150);
+   top: 62em;
+   position: absolute;
+   width: 75%;
+   height: 5em;
+}
+
+.tercer h3 {
+   font-size: 3em;
+   color: #ffff;
+   padding-top: .3em;
+   padding-left: 4.5em;
+}
+
+.tercer::before {
+   content: "";
+   top: 0;
+   right: 0;
+   bottom: 0;
+   border-top: 2.5em solid #ffffff;
+   border-left: 4em solid rgb(15, 40, 150);
+   position: absolute;
+   border-bottom: 2.5em solid #ffffff;
+}
+
+.tercer__primero {
+   position: absolute;
+   top: 70em;
+   left: 10em;
+   width: 25em;
+   height: 30em;
+   border: 2px solid #000000ff;
+   border-radius: 1em;
+}
+
+.tercer__primero--adentro {
+   width: 24.8em;
+   height: 5em;
+   border-bottom: 2px solid #000000ff;
+   text-align: center;
+}
+
+.tercer__primero--adentro h3 {
+   font-size: 2em;
+   padding-top: .8em;
+}
+
+.tercer__primero p {
+   padding: 2em;
+}
+
+.tercer__segundo {
+   position: absolute;
+   top: 70em;
+   left: 45em;
+   width: 25em;
+   height: 30em;
+   border: 2px solid #000000ff;
+   border-radius: 1em;
+}
+
+.tercer__segundo--adentro {
+   width: 24.8em;
+   height: 5em;
+   border-bottom: 2px solid #000000ff;
+   text-align: center;
+}
+
+.tercer__segundo--adentro h3 {
+   font-size: 2em;
+   padding-top: .8em;
+}
+
+.tercer__segundo p {
+   padding: 2em;
+}
+
+/**CUARTO SEMESTRE**/
+
+.cuarto {
+   display: block;
+   margin-top: 50em;
+   width: 30em;
+   height: 5em;
+   background-color: rgb(15, 40, 150);
+   border-radius: 2em;
+   margin-right: auto;
+   margin-left: auto;
+}
+
+.cuarto h3 {
+   color: #ffffff;
+   text-align: center;
+   padding-top: .7em;
+   font-size: 2em;
+}
+
+.cuarto__primero {
+   display: flex;
+   width: 100%;
+   height: 20em;
+   border-radius: 2em;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 5em;
+   padding-left: 5em;
+   padding-right: 5em;
+}
+
+.cuarto__primero--word {
+   display: inline-block;
+   width: 15em;
+   height: 22em;
+   background-color: #00227791;
+   border-radius: 2em;
+}
+
+.cuarto__primero--word img {
+   border-radius: 100%;
+   width: 5em;
+   margin-left: 5em;
+   margin-top: -2.5em;
+}
+
+.cuarto__primero--word p {
+   padding: 1em;
+   color: #ffffff;
+   margin-top: 1em;
+}
+
+.cuarto__primero--excel {
+   display: inline-block;
+   width: 15em;
+   height: 22em;
+   background-color: #00227791;
+   border-radius: 2em;
+}
+
+.cuarto__primero--excel img {
+   border-radius: 100%;
+   width: 5em;
+   margin-left: 5em;
+   margin-top: -2.5em;
+}
+
+.cuarto__primero--excel p {
+   padding: 1em;
+   color: #ffffff;
+   margin-top: 1em;
+}
+
+.cuarto__primero--point {
+   display: inline-block;
+   width: 15em;
+   height: 22em;
+   background-color: #00227791;
+   border-radius: 2em;
+}
+
+.cuarto__primero--point img {
+   border-radius: 100%;
+   width: 5em;
+   margin-left: 5em;
+   margin-top: -2.5em;
+}
+
+.cuarto__primero--point p {
+   padding: 1em;
+   color: #ffffff;
+   margin-top: 1em;
+}
+
+.cuarto__segundo {
+   margin-top: 5em;
+   background-color: #00227791;
+   width: 50%;
+   height: 10em;
+   margin-left: 25%;
+   border-radius: 2em;
+}
+
+.cuarto__segundo p {
+   padding: 2em;
+   color: #ffffff;
+   margin-top: 1em;
+}
+
+/**QUINTO SEMESTRE**/
+
+.quinto {
+   display: inline-block;
+   margin-top: 5em;
+   width: 60%;
+   height: 35em;
+   background-color: rgb(221, 221, 221);
+}
+
+.quinto h3 {
+   margin-top: 2em;
+   font-size: 2em;
+   margin-left: 4em;
+}
+
+.quinto__icono1 {
+   display: inline-block;
+   margin-top: 5em;
+   margin-left: 3em;
+   position: relative;
+   width: 5em;
+   height: 5em;
+   border-radius: 100%;
+   background-color: rgb(14, 78, 173);
+}
+
+.quinto__icono1--centro {
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   margin: auto;
+   width: 4em;
+   height: 4em;
+   border-radius: 100%;
+   background-color: rgb(221, 221, 221);
+}
+
+.quinto__icono1--centro img {
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   margin: auto;
+   width: 50%;
+}
+
+.quinto__emprendimiento {
+   padding: 2em;
+   width: 35em;
+   height: auto;
+   display: inline-block;
+   color: rgb(78, 78, 78);
+}
+
+.quinto__icono2 {
+   display: inline-block;
+   margin-top: 5em;
+   margin-left: 3em;
+   position: relative;
+   width: 5em;
+   height: 5em;
+   border-radius: 100%;
+   background-color: rgb(173, 14, 14);
+}
+
+.quinto__icono2--centro {
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   margin: auto;
+   width: 4em;
+   height: 4em;
+   border-radius: 100%;
+   background-color: rgb(221, 221, 221);
+}
+
+.quinto__icono2--centro img {
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   margin: auto;
+   width: 50%;
+}
+
+.quinto__edicion {
+   padding: 2em;
+   width: 35em;
+   height: auto;
+   display: inline-block;
+   color: rgb(78, 78, 78);
+}
+
+.imagensilla {
+   position: absolute;
+   left: 55em;
+   top: 160em;
+}
+
+/**SEXTO SEMESTRE**/
+
+.dividir__sexto {
+   margin-top: 2em;
+   width: 100%;
+   height: 2em;
+   background-color: rgb(128, 128, 128);
+}
+
+.sexto {
+   align-content: center;
+}
+
+.sexto h3 {
+   font-weight: 800;
+   font-size: 4em;
+   padding-top: .5em;
+   color: rgb(9, 20, 47);
+   text-align: center;
+   font-family: "Source Sans Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif !important;
+}
+
+.sexto p {
+   display: block;
+   font-family: "Source Sans Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif !important;
+   font-size: 26px;
+   color: rgb(98, 98, 98);
+   line-height: 1;
+   text-align: center;
+}
+
+.quinto__primero {
+   display: block;
+   font-size: 36px;
+   color: rgb(9, 20, 47);
+   margin-left: 22em;
+}
+
+.quinto__imagen {
+   display: block;
+   width: 30%;
+   margin-left: 45em;
+   margin-top: 8em;
+}
+
+.quinto__texto {
+   margin-top: 1em;
+   margin-right: 11em;
+   float: right;
+   font-size: 18px;
+   font-family: sans-serif;
+   color: rgb(98, 98, 98);
+   width: 20em;
+   height: 10em;
+}
+
+.capacitacion {
+   position: absolute;
+   font-size: 36px;
+   color: rgb(9, 20, 47);
+   margin-left: 4em;
+   top: 95em;
+}
+
+.capacitacion__texto {
+   font-size: 18px;
+   font-family: sans-serif;
+   color: rgb(98, 98, 98);
+   width: 30%;
+   margin-left: 4em;
+   margin-top: -4em;
+   text-align: center;
+}

@@ -1,0 +1,138 @@
+.header {
+    top: 0;
+    background: #ffffff;
+    min-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ 
+ .header__titulo--principal {
+    color: rgb(15, 98, 150);
+    font-family: 'Catamaran', sans-serif;
+    font-size: 3em;
+    display: inline-block;
+ }
+ 
+ .header__titulo--secundario {
+    color: rgb(15, 98, 150);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 3em;
+    display: inline-block;
+    margin-right: 10px;
+ }
+ 
+ .nav {
+    background: #ffffffeb;
+    align-content: left;
+ }
+ 
+ .nav__ul {
+    padding: 31px;
+    list-style-type: none;
+ }
+ 
+ .nav__ul--li {
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+ }
+ 
+ .nav__ul--li a:hover {
+    position: static;
+    background: rgb(8, 77, 119);
+    color: #ffffff;
+    padding-top: 100%;
+    padding-bottom: 51px;
+    transition: .2s;
+ }
+ 
+ .nav__ul--li a {
+    padding: 0 20px;
+    color: #0099ff;
+    text-decoration: none;
+ }
+
+  .separador {
+   margin-top: -1px;
+   background-color: rgb(15, 98, 150);
+   width: 100%;
+   height: .5em;
+ }
+
+ .actividades__titulo {
+   border-radius: 2em;
+   background-color: rgb(45, 120, 166);
+   width: 50%;
+   height: 5em;
+   margin-left: 25%;
+   margin-top: 2em;
+ }
+
+ .actividades__titulo h2 {
+   color: #ffffff;
+   text-align: center;
+   font-size: 3em;
+   padding-top: .3em;
+   font-family: 'Russo One', sans-serif;
+ }
+
+ .nombre {
+   margin-top: 2em;
+   width: 100%;
+   height: 2em;
+ }
+
+ .nombre p {
+   font-size: 1.5em;
+   text-align: center;
+   font-family: 'Poppins', sans-serif;
+ }
+
+ .maestro1 {
+   margin-top: 2em;
+   width: 100%;
+   height: 2em;
+ }
+
+ .maestro1 p {
+   font-size: 1.5em;
+   text-align: center;
+   font-family: 'Poppins', sans-serif;
+ }
+
+ .maestro2 {
+   margin-top: 2em;
+   width: 100%;
+   height: 2em;
+ }
+
+ .maestro2 p {
+   font-size: 1.5em;
+   text-align: center;
+   font-family: 'Poppins', sans-serif;
+ }
+
+ .escuela {
+   margin-top: 2em;
+   width: 100%;
+   height: 2em;
+ }
+
+ .escuela p {
+   font-size: 1.5em;
+   text-align: center;
+   font-family: 'Poppins', sans-serif;
+ }
+
+ .materia {
+   margin-top: 2em;
+   width: 100%;
+   height: 2em;
+ }
+
+ .materia p {
+   font-size: 1.5em;
+   text-align: center;
+   font-family: 'Poppins', sans-serif;
+ }
+
